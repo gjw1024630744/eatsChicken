@@ -11,6 +11,7 @@
     "axios": "^0.18.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
+    "vant": "^1.6.9",
     "vue": "^2.6.6",
     "vue-baidu-map": "^0.21.18",
     "vue-router": "^3.0.1",

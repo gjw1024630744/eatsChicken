@@ -3,6 +3,12 @@ import App from './App.vue'
 import router from './assets/js/router'
 import axios from 'axios'
 
+// vant ui
+import Vant from 'vant';
+import 'vant/lib/index.css';
+import { Toast } from 'vant'
+
+Vue.use(Vant);
 import rem from './assets/js/rem'  //--------- rem
 import {post,fetch,patch,put} from './assets/js/http' //---------封装axios请求函数
 import api from './assets/js/api' //---------api 接口集引入
